@@ -5,8 +5,8 @@
   "main": "index.js",
   "repository": "",
   "scripts": {
-    "start": "webpack-dev-server",
-    "test": "jest"
+    "start": "webpack-dev-server --open --hot",
+    "test": "jest --watch"
   },
   "author": "SolorioTeam",
   "license": "ISC",
