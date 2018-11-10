@@ -5,7 +5,7 @@ class Launch extends Component {
   render(){
     return (
       <div>
-        <button>Hello from button</button>
+        <button>Hello from Launch</button>
         <Footer/>
       </div>
     );
