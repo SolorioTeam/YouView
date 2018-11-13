@@ -1,5 +1,5 @@
 {
-  "name": "YouView",
+  "name": "youview",
   "version": "0.0.0",
   "description": "Youtube clone",
   "main": "index.js",
@@ -29,6 +29,6 @@
     "react-router-dom": "^4.3.1"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "C:/Users/Jason/Projects/YouView/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
   }
 }
