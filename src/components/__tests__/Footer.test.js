@@ -34,7 +34,7 @@ describe("Footer", ()=>{
     });
     
     it('contains social media buttons', ()=>{
-        expect(mountedFooter.find('span').children()).toHaveLength(4);
+        expect(mountedFooter.find('span.socialmedia-btns').children()).toHaveLength(4);
     });
 
 });
