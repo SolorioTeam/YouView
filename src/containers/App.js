@@ -1,10 +1,22 @@
 import React, { Component } from 'react';
+import Launch from '../containers/Launch';
 
-class App extends Component {
+class App extends Component{
+  constructor(props){
+    super(props);
+
+    this.state={
+      token: ''
+    }
+  }
+
   render(){
-    return (
-      <h1>Hello</h1>
-    );
+    
+    if(this.state.token){
+      return 1;
+    }
+    return <Launch />;
+
   }
 }
 
