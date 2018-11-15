@@ -42,5 +42,4 @@ describe("Email Input", () => {
         let email_input = mounted_wrapper.find('input');
         email_input.simulate('change', {target: {value: 'a@.com'}});
     });
-    
 });
