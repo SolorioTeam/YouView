@@ -38,4 +38,9 @@ describe("Email Input", () => {
         expect(shallow_wrapper.state('email')).toEqual("Jello");
     });
 
+    it("checks for the wrong value on the input", () => {
+        let email_input = mounted_wrapper.find('input');
+        email_input.simulate('change', {target: {value: 'a@.com'}});
+    });
+    
 });
