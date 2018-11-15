@@ -16,5 +16,5 @@ describe("App", ()=>{
         expect(mountedApp.instance().state.token).toBe('');
         expect(mountedApp.find('Launch').length).toBe(1);    
     });
- 
+
 });
