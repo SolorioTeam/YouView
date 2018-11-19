@@ -7,7 +7,7 @@ class Footer extends Component {
           <button className="backToTop">Back to top</button>
           <p className="copyrights">&copy; 2018 YouView</p>
           <a className="companyLink">About Company</a>
-          <span>
+          <span className="socialmedia-btns">
               <span><i className="fab fa-facebook-f"></i>#4267b2</span>
               <span><i className="fab fa-twitter"></i>#1da1f2</span>
               <span><i className="fab fa-linkedin-in"></i>#0077B5</span>
